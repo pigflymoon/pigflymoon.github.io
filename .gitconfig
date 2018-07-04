@@ -1,0 +1,18 @@
+index-backup.html[user]
+	name = pigflymoon
+	email = pigflymoon@gmail.com
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[http]
+	postBuffer = 524288000
+[core]
+	editor = nano
+	autocrlf = input
+[credential]
+	helper = osxkeychain
