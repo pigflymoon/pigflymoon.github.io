@@ -52,6 +52,7 @@ h2,
 .heading-2 {
     font-size: 28px;
     line-height: 1.5;
+    font-family: Britannic Bold;
 }
 
 @media (min-width: 1200px) {
