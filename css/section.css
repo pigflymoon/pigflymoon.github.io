@@ -264,7 +264,7 @@ html [class*='section-'].section-bottom-0 {
     bottom: 0;
     right: 0;
     content: '';
-    background: linear-gradient(360deg, rgba(197, 197, 197, 0.35) 0.91%, rgba(144, 144, 154, 0.28) 10%, rgba(80, 84, 101, 0.3) 99.52%);
+    /*background: linear-gradient(360deg, rgba(197, 197, 197, 0.35) 0.91%, rgba(144, 144, 154, 0.28) 10%, rgba(80, 84, 101, 0.3) 99.52%);*/
     z-index: 1;
 }
 
