@@ -170,7 +170,15 @@
 }
 
 .rd-navbar-brand a {
-    display: block;
+    display: inline-block;
+}
+
+.rd-navbar-brand .brand-title {
+    font-size: 32px;
+    display: inline-block;
+    letter-spacing: 0.01em;
+    color: black;
+    margin-left: 20px;
 }
 
 .rd-navbar-search {
@@ -952,7 +960,7 @@
 
 .rd-navbar-fixed .rd-navbar-panel {
     color: #9b9b9b;
-    background: #444141;
+    background: #e0dfdb;
 }
 
 .rd-navbar-fixed .rd-navbar-nav-wrap {
@@ -1040,6 +1048,7 @@
 
 html.rd-navbar-fixed-linked .page {
     padding-top: 56px;
+    background: #cac4b8;
 }
 
 /*
@@ -1692,6 +1701,7 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-aside.rd-navbar-static .rd-navbar-main-outer {
     padding-left: 15px;
     padding-right: 15px;
+    background: #e0dfdb;
 }
 
 .rd-navbar-aside.rd-navbar-static .rd-navbar-aside,
@@ -1766,7 +1776,7 @@ html.rd-navbar-fixed-linked .page {
     text-transform: uppercase;
     letter-spacing: .02em;
     font-weight: 500;
-    color: #ffffff;
+    color: black;
 }
 
 
@@ -1783,7 +1793,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .rd-navbar-aside.rd-navbar-static .rd-navbar-panel .header-soc-list .icon {
-    color: rgba(255, 255, 255, 0.5);
+    color: black; /*rgba(255, 255, 255, 0.5);*/
     font-size: 22px;
 }
 

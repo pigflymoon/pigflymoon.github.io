@@ -55,6 +55,11 @@
     background: rgba(255, 255, 255, 0.05);
     color: #ffffff;
 }
+.footer-classic .icon-bg-black {
+    background: rgba(255, 255, 255, 0.05);
+    color: black;
+}
+
 
 .footer-title {
     text-transform: uppercase;
@@ -167,7 +172,8 @@
 .footer-minimal {
     padding: 60px 0;
     text-align: center;
-    background: #323232;
+    /*background: #323232;*/
+    background: #e0dfdb;
 }
 
 .footer-minimal .icon-bg-white {
@@ -195,11 +201,11 @@
 }
 
 .footer-minimal .rights {
-    color: rgba(255, 255, 255, 0.5);
+    color: black;
 }
 
 .footer-minimal .rights a {
-    color: rgba(255, 255, 255, 0.5);
+    color: black;
 }
 
 .footer-minimal .social-list li {
@@ -236,7 +242,7 @@
     text-transform: uppercase;
     letter-spacing: .02em;
     text-align: center;
-    color: #ffffff;
+    color: black;
 }
 
 .footer-minimal-nav a:hover {

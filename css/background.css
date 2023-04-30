@@ -60,9 +60,9 @@
 /*
 * Light Backgrounds
 */
-.bg-default {
-    background-color: #ffffff;
-}
+/*.bg-default {*/
+/*    background-color: #ffffff;*/
+/*}*/
 
 .bg-default:not([style*="background-"]) + .bg-default:not([style*="background-"]) {
     padding-top: 0;
@@ -308,4 +308,8 @@
 
 .bg-decorate.bg-decorate-reverse:after {
     transform: skewY(-13deg);
+}
+
+.page {
+    background: #cac4b8;
 }

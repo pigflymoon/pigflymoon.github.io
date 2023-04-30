@@ -4,7 +4,7 @@
 img {
     display: inline-block;
     max-width: 100%;
-    height: auto;
+    /*height: auto;*/
 }
 
 .img-responsive {
@@ -58,6 +58,11 @@ img {
 .icon-bg-white {
     background: #ffffff;
     color: #41A451;
+}
+
+.icon-bg-black {
+    background: #ffffff;
+    color: black;
 }
 
 .icon-blue {

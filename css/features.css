@@ -244,6 +244,8 @@
 
 .product-featured-title {
     font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Poppins';
 }
 
 .product-featured:hover .product-featured-figure:before {
