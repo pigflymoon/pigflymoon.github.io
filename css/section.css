@@ -245,6 +245,12 @@ html [class*='section-'].section-bottom-0 {
     }
 }
 
+@media (max-width: 576px) {
+    .section-main-bunner .main-bunner-inner {
+        margin-top: 0px;
+    }
+}
+
 .section-main-bunner .main-bunner-inner .bunner-location a {
     display: inline-block;
 }
