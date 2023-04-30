@@ -68,7 +68,7 @@ html [class*='section-'].section-bottom-0 {
 
 @media (min-width: 992px) {
     .section-md {
-        padding: 150px 0 90px;
+        padding: 200px 0 90px;
     }
 
     .section-lg {
