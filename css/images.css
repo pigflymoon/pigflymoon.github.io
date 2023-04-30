@@ -60,6 +60,11 @@ img {
     color: #41A451;
 }
 
+.icon-bg-black {
+    background: #ffffff;
+    color: black;
+}
+
 .icon-blue {
     color: #135DEC;
 }

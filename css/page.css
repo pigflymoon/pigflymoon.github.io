@@ -48,7 +48,8 @@ html.boxed body {
     position: absolute;
     left: 0;
     right: 0;
-    background-color: #0d0a0a;
+/*#0d0a0a;*/
+/*    background-color: #ffffff;*/
     z-index: 1070;
 }
 
