@@ -346,6 +346,7 @@
 .gallery-item-classic img {
     max-width: inherit;
     width: 100%;
+    height: auto;
 }
 
 .gallery-item-classic-caption {
